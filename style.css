@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: white;
+    background-color: black;
+    overflow-x: hidden;
+}
+header {
+    padding-top: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+}
+header h1 {
+    flex: 1;
+}
+nav {
+    margin-left: 20px;
+    flex: 2;
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-Explore {
+    margin-right: 20px;
+}
+.nav-Explore button, .nav-LogIn button {
+    cursor: pointer;
+    color: white;
+}
+.button1 {
+    opacity: 0.9;
+    border: 2px solid white;
+    width: 80px;
+    height: 30px;
+    background: transparent;
+    border-radius: 3px;
+}
+.button1:hover {
+    background-color: white;
+    color: black;
+    transition: ease-in 0.3s;
+}
+.button2 {
+    opacity: 0.9;
+    background-color: transparent;
+    border: none;
+    width: 80px;
+    height: 30px;
+}
+button:hover {
+    opacity: 1;
+}
+.section-Info {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.section-MainText {
+    color: white;
+    font-size: 25px;
+}
+.premium-Button {
+    margin-top: 50px;
+    width: 150px;
+    height: 35px;
+    align-items: center;
+    background-color: #ff6905;
+    border: 2px solid #e9640b;
+    border-radius: 2px;
+    color: #000000;
+    font-size: 16px;
+}
+.section-InfoElements {
+    margin-top: 180px;
+    justify-content: space-around;
+    display: flex;
+    height: 20vh;
+}
+.section-InfoElements div {
+    flex: 1;
+}
+.section-InfoElement1, .section-InfoElement2, .section-InfoElement3, .section-InfoElement4 {
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+}
+.section-InfoElement1,.section-InfoElement2, .section-InfoElement3, .section-InfoElement4 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    font-size: 15px;
+    opacity: 0.9;
+}
+.section-InfoElement1:hover, .section-InfoElement2:hover, .section-InfoElement3:hover, .section-InfoElement4:hover {
+    opacity: 1;
+    transition: ease-in 0.2s;
+}
+.section-InfoElements img {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*Background images*/
+.background-images  {
+    background:
+        linear-gradient(#0000006c, #000000a1, #000000dc, #000000, #000000),
+        url("images/background-images/wallpaperback.png");
+    background-size: cover;
+    background-repeat:no-repeat;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+}
+/*Main first part text*/
+.main1-ContentText {
+    padding-top: 80px;
+    height: 40vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.premium-Button2 {
+    margin-top: 50px;
+    width: 220px;
+    height: 40px;
+    align-items: center;
+    background-color: #ff6905;
+    border: 2px solid #e9640b;
+    border-radius: 2px;
+    color: #000000;
+    font-size: 20px;
+}
+.main2-Content {
+    background-image: 
+    linear-gradient(#000000,#000000a2,#000000ad, #00000075),
+    url("/images/mainElements/Tog1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*2s main  part */
+.main2-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.main2-Content h3 {
+    width: 200px;
+    font-size: 30px;
+}
+.main2-ContentType {
+    color: rgb(167, 166, 166);
+    width: 300px;
+    font-size: 15px;
+}
+.main2-ContentClass {
+    width: 350px;
+    font-size: 20px;
+}
+.main2-ContenButtons {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+}
+.watchButton {
+    cursor: pointer;
+    width: 150px;
+    height: 30px;
+    background-color: #ff6905;
+    border: none;
+    border-radius: 2px;
+    font-size: 17px;
+}
+.descButton {
+    cursor: pointer;
+    font-size: 13px;
+    margin-left: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    border: solid 2px  #ff6905;
+}
+#player {
+    margin-left: 80px;
+    width: 920px;
+    height: 540px;
+}

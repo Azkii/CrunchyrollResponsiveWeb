@@ -1,0 +1,58 @@
+@media only screen and (max-width: 1024px) {
+    body {
+        overflow-x: hidden;
+    }
+    .section-Info {
+        margin-top: 50px;
+    }
+    .section-InfoElements {
+        margin-top: 200px;
+        flex-direction: column;
+    }
+    .section-InfoElements div {
+        margin-bottom: 20px;
+    }
+    .background-images  {
+        width: 100vw;
+        height: 110vh;
+    }
+    .main1-ContentText {
+        padding-top: 200px;
+    }
+    .main2-Content {
+        background-position-x: 50%;
+    }
+    .main2-Content {
+        flex-direction: column;
+    }
+    #player {
+        margin-top: 25px;
+        margin-left:0px;
+        width: 620px;
+        height: 540px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .background-images  {
+        width: 100vw;
+        height: 110vh;
+    }
+    .main1-ContentText {
+        padding-top: 200px;
+    }
+    .premium-Button {
+        margin-top: 50px;
+        width: 280px;
+        height: 40px;
+        align-items: center;
+        background-color: #ff6905;
+        border: 2px solid #e9640b;
+        border-radius: 2px;
+        color: #000000;
+        font-size: 18px;
+    }
+    #player {
+        display: none;
+    }
+}
