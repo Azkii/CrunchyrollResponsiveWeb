@@ -4,8 +4,7 @@
 }
 body {
     color: white;
-    background-color: black;
-    overflow-x: hidden;
+    background-color: red;
 }
 header {
     padding-top: 2vh;
@@ -117,8 +116,8 @@ button:hover {
     background-repeat:no-repeat;
     position: absolute;
     z-index: -1;
-    top: 0;
-    width: 100vw;
+    top: 0%;
+    width: 100%;
     height: 100vh;
 }
 /*Main first part text*/
@@ -207,4 +206,22 @@ button:hover {
     margin-left: 80px;
     width: 920px;
     height: 540px;
+}
+/*Slider*/
+.slider-WithAnime {
+    background-color: rgb(221, 221, 221);
+    padding-top: 50px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.slider-Image {
+    width: 200px;
+    height: 300px;
+}
+.slider-WithAnime h3{
+    color: rgb(36, 36, 36);
+    font-size: 25px;
+    margin-bottom: 50px;
 }

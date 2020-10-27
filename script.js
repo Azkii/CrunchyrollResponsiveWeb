@@ -11,8 +11,6 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 var player;
 function onYouTubeIframeAPIReady() {
   player = new YT.Player('player', {
-    height: "200px",
-    width: "200px",
     videoId: 'iDBzWhfN3hI',
   });
 }
@@ -21,9 +19,22 @@ function onYouTubeIframeAPIReady() {
 function onPlayerReady(event) {
   event.target.playVideo();
 }
-
-function stopVideo() {
-  player.stopVideo();
+const config = {
+  type: 'carousel',
+  perView: 7,
+  breakpoints: {
+    1600: {
+      perView: 6.5
+    },
+    1500: {
+      perView: 5.5
+    },
+    1024: {
+      perView: 3
+    },
+    600: {
+      perView: 1
+    }
+  }
 }
-
-console.log("xdd")
+new Glide('.glide', config).mount()
