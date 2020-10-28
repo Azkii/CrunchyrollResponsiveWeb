@@ -24,10 +24,10 @@ const config = {
   perView: 7,
   breakpoints: {
     1600: {
-      perView: 6.5
+      perView: 6
     },
     1500: {
-      perView: 5.5
+      perView: 5
     },
     1024: {
       perView: 3

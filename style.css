@@ -201,6 +201,11 @@ button:hover {
     border: none;
     border-radius: 2px;
     border: solid 2px  #ff6905;
+    opacity: 0.9;
+}
+.descButton:hover {
+    opacity: 1;
+    border: solid 2px white;
 }
 #player {
     margin-left: 80px;
@@ -211,7 +216,7 @@ button:hover {
 .slider-WithAnime {
     background-color: rgb(221, 221, 221);
     padding-top: 50px;
-    height: 80vh;
+    height: 500px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -224,4 +229,106 @@ button:hover {
     color: rgb(36, 36, 36);
     font-size: 25px;
     margin-bottom: 50px;
+}
+/*Payment section*/
+.payment-section {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(236, 236, 236);
+    color: black;
+}
+.payment-types {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.payment-types div {
+    flex: 2;
+    height: 550px;
+    width: 300px;
+}
+.payment-box1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgb(246, 246, 246);
+    border: solid 5px rgba(216, 216, 216, 0.466);
+}
+.payment-box2 {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    border-top: 40px solid#ff6905;
+    border-left: solid #ff6905 2px;
+    border-right: solid #ff6905 2px;
+    border-bottom: solid #ff6905 2px;
+}
+.payment-box2BorderText {
+    margin-top: -30px;
+    color: white;
+}
+.payment-box3 {
+    background-color: rgb(246, 246, 246);
+    border-top: 40px solid rgba(216, 216, 216, 0.609);
+    border-left: solid rgba(216, 216, 216, 0.609) 2px;
+    border-right: solid rgba(216, 216, 216, 0.609) 2px;
+    border-bottom: solid rgba(216, 216, 216, 0.609) 2px;
+}
+.payment-box3BorderText {
+    margin-top: -30px;
+    color: rgba(0, 0, 0, 0.65);
+}
+/*Price elements*/
+.price-sign {
+    margin-top: 40px;
+    width: 80px;
+}
+.price-name {
+    margin-top: 20px;
+}
+.price-taxes {
+    opacity: 0.8;
+    margin-top: 5px;
+    font-size: 12px;
+}
+.price-promotion {
+    margin-top: 5px;
+}
+.price-button1 {
+    opacity: 0.9;
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    color: #ff6905;
+    background-color: transparent;
+    border: solid #ff6905 2px;
+}
+.price-button1:hover {
+    opacity: 1;
+    background-color: #ff6905;
+    color: white;
+    transition: ease-in 0.1s;
+    outline: none;
+}
+.price-adds {
+    list-style: none;
+    font-size: 13px;
+    margin-top: 40px;
+}
+.price-adds li{
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 20px;
+}
+.price-check {
+    width: 15px;
+    margin-right: 10px;
+}
+.price-adds li p {
+    display: inline;
+    margin-left: 5px;
 }

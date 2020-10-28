@@ -31,6 +31,9 @@
         width: 620px;
         height: 450px;
     }
+    .payment-types {
+        flex-direction: column;
+    }
 }
 
 @media only screen and (max-width: 450px) {
