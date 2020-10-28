@@ -18,9 +18,13 @@
     }
     .main1-ContentText {
         padding-top: 200px;
+        height: 400px;
     }
     .main2-Content {
         background-position-x: 50%;
+    }
+    .main2-container {
+       margin-top: 50px;
     }
     .main2-Content {
         flex-direction: column;
@@ -28,11 +32,16 @@
     #player {
         margin-top: 25px;
         margin-left:0px;
+        margin-bottom: 30px;
         width: 620px;
         height: 450px;
     }
     .payment-types {
         flex-direction: column;
+    }
+    .payment-box2 {
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 }
 
@@ -44,6 +53,9 @@
     .main1-ContentText {
         padding-top: 200px;
     }
+    .main2-container {
+        margin-top: 0px;
+     }
     .premium-Button {
         margin-top: 50px;
         width: 280px;
