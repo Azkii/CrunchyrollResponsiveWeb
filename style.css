@@ -255,6 +255,9 @@ button:hover {
     width: 300px;
     height: 550px;
 }
+.payment-box1 div {
+    margin-top: 35px;
+}
 .payment-box2 {
     background-color: rgb(246, 246, 246);
     border-top: 40px solid#ff6905;
@@ -306,12 +309,24 @@ button:hover {
     background-color: transparent;
     border: solid #ff6905 2px;
 }
+.price-button2 {
+    opacity: 0.9;
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    color: white;
+    background-color: #ff6905;
+    border: solid #ff6905 2px;
+}
+.price-button2:hover {
+    opacity: 1;
+    transition: ease-in 0.1s;
+}
 .price-button1:hover {
     opacity: 1;
     background-color: #ff6905;
     color: white;
     transition: ease-in 0.1s;
-    outline: none;
 }
 .price-adds {
     list-style: none;
@@ -325,9 +340,19 @@ button:hover {
 }
 .price-check {
     width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+.price-times {
+    opacity: 0.2;
+    width: 15px;
+    height: 15px;
     margin-right: 10px;
 }
 .price-adds li p {
     display: inline;
     margin-left: 5px;
+}
+.price-TimesColorGray {
+    color: gray;
 }
