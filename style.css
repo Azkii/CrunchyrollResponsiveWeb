@@ -356,3 +356,77 @@ button:hover {
 .price-TimesColorGray {
     color: gray;
 }
+/*bottom informations*/
+.bottom-Informations {
+    color: black;
+    background-color: rgb(236, 236, 236);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.bottom-InformationFreeAccount {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.bottom-InformationFreeAccount p {
+    color: #ff6905;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.bottom-InformationQuestins {
+    margin-top: 80px;
+}
+.bottom-InformationQuestins h3 {
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+.bottom-InformationQuestins div {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+.bottom-InformationQuestins div p {
+    color: #ff6905;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.bottom-InformationList {
+    margin-top: 80px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    list-style: none;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bottom-InformationListColor {
+    color: #ff6905;
+}
+.bottom-InformationListLine {
+    opacity: 0.8;
+}
+/*footer*/
+footer {
+    background-color: white;
+}
+footer section{
+    color: rgba(0, 0, 0, 0.856);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    height: 50px;
+    margin: auto
+}
+.navBar-SelectLanguage {
+    background-color: #ff6905;
+    color: rgb(0, 0, 0);
+    border: none;
+    width: 150px;
+    height: 30px;
+    border-radius: 2px;
+}
