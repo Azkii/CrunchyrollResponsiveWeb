@@ -424,9 +424,13 @@ footer section{
 }
 .navBar-SelectLanguage {
     background-color: #ff6905;
-    color: rgb(0, 0, 0);
+    color: white;
     border: none;
     width: 150px;
     height: 30px;
     border-radius: 2px;
+}
+.navBar-SelectLanguage option {
+    background-color: white;
+    color: black;
 }
